@@ -1,0 +1,60 @@
+
+.general{
+    display:flex;
+    align-items:center;
+    border-bottom:1px solid rgb(0, 0, 0);
+    width:100%;
+    justify-content:space-between;
+    color:white;
+    font-size: 16px;
+}
+
+
+.content{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    
+}
+
+.start{
+    align-items: center;
+    display: flex;
+    width:175px;
+    padding-left:15px;
+   
+}
+.symbol{
+    width:175px;
+    display: flex;
+    justify-content:flex-start;    
+}
+
+.current_price{
+    display:flex;
+    width:175px;
+}
+
+.price_change_24h{
+    width:175px;
+    
+}
+
+
+.volume{
+    width:175px;
+}
+
+.market_info{
+    width:175px;
+}
+
+.price_change_24h_percent_green{
+    width:175px;
+    color:rgb(0, 255, 0);
+    font-weight: bold;
+}
+
+.price_change_24h_percent_red{
+    width:175px;
+    color:rgb(255, 0, 0);
+    font-weight: bold;
+}
